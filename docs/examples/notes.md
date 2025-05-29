@@ -1,13 +1,13 @@
 
 Some useful links:
 
-[YouTube Video]("https://www.youtube.com/watch?v=xlABhbnNrfI")  
+[YouTube Video](https://www.youtube.com/watch?v=xlABhbnNrfI)  
 
-[Walkthrough]("https://jameswillett.dev/getting-started-with-material-for-mkdocs/#publish-site-to-github-pages")  
+[Walkthrough](https://jameswillett.dev/getting-started-with-material-for-mkdocs/#publish-site-to-github-pages)  
 
-[Example Repo]("https://github.com/james-willett/material-mkdocs-youtube-2024/tree/main")
+[Example Repo](https://github.com/james-willett/material-mkdocs-youtube-2024/tree/main)
 
-[Material for MKDocs]("https://squidfunk.github.io/mkdocs-material/")  
+[Material for MKDocs](https://squidfunk.github.io/mkdocs-material/)  
 
-[Material References]("https://squidfunk.github.io/mkdocs-material/reference/")
+[Material References](https://squidfunk.github.io/mkdocs-material/reference/)
 
