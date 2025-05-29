@@ -20,13 +20,23 @@ theme:
       accent: deep purple
 
     # Light Mode
-    - scheme: default
+#    - scheme: default
+#      toggle:
+#        icon: material/weather-night
+#        name: Light mode
+#      primary: blue
+#      accent: deep orange
+    
+    # Forest Mode
+    - scheme: forest
       toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
-  
+        icon: material/forest
+        name: Forest Mode
+
+extra_css:
+  - stylesheets/extra.css
+    
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

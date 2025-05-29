@@ -1,0 +1,17 @@
+/* docs/stylesheets/extra.css */
+
+[data-md-color-scheme="ocean"] {
+    --md-default-fg-color: #11324D;
+    --md-default-bg-color: #E0F7FA;
+    --md-primary-fg-color: #00796B;
+    --md-accent-fg-color: #FF8F00;
+    /* ... */
+  }
+  
+  [data-md-color-scheme="forest"] {
+    --md-default-fg-color: #E8F5E9;
+    --md-default-bg-color: #1B5E20;
+    --md-primary-fg-color: #A5D6A7;
+    --md-accent-fg-color: #FFB300;
+    /* ... */
+  }
