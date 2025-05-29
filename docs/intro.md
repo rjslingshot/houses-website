@@ -24,4 +24,4 @@ Every game in the **Houses** collection is meticulously crafted according to a s
 
 This collection offers a remarkable diversity of experiences. Dive into over a dozen different games, each with its own unique twist on the shared lore. You'll find games designed for **1 to 4 players**, catering to solo adventurers, strategic duos, or groups of friends. Explore a variety of **game mechanics and styles**, including competitive battles for **domination** or to achieve **submission**, collaborative struggles for **survival** against daunting odds, and intricate challenges to gather the most **points** through influence or cunning. Whether you prefer direct conflict, subtle maneuvering, or cooperative planning, there's a game in **Houses** waiting for you.
 
-### Are you ready to discover the world within your cards?
+### Discover the world within your cards.
