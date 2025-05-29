@@ -20,18 +20,18 @@ theme:
       accent: deep purple
 
     # Light Mode
-#    - scheme: default
-#      toggle:
-#        icon: material/weather-night
-#        name: Light mode
-#      primary: blue
-#      accent: deep orange
-    
-    # Forest Mode
-    - scheme: forest
+    - scheme: default
       toggle:
-        icon: material/forest
-        name: Forest Mode
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+    
+    # Forest Mode (uses extra.css defined styles)
+#    - scheme: forest
+#      toggle:
+#        icon: material/forest
+#        name: Forest Mode
 
 extra_css:
   - stylesheets/extra.css
