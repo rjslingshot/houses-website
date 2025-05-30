@@ -4,8 +4,9 @@ My sons and I have been developing and play testing this game since its inceptio
 
 We initially called this game...
 
+![Cards of War Logo](assets/COW-Logo.png "Cards of War Logo")
 
-!!! danger "Cards of War!"
+!!! danger "Intro"
 
     War is upon us! The kingdoms are divided and the land is in turmoil. Bring stability to the people by defeating the opposition to rule supremely over all. To do this, you must recruit forces from the four royal houses; the quick Diamonds, brutal Clubs, vigilant Hearts and cunning Spades. Cards of War is a game of luck as well as strategy. Each turn a random member of the four houses is drawn from the shared deck and chooses to fight by your side. Who will come to your aid? Will you be victorious?
 
