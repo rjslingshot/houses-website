@@ -8,10 +8,24 @@
     /* ... */
   }
   
-  [data-md-color-scheme="forest"] {
+[data-md-color-scheme="forest"] {
     --md-default-fg-color: #E8F5E9;
     --md-default-bg-color: #1B5E20;
     --md-primary-fg-color: #A5D6A7;
     --md-accent-fg-color: #FFB300;
     /* ... */
+}
+
+.text-center {
+    text-align: center;
+  }
+  
+  /* Optional: If you want to make the emoji itself larger and ensure it behaves well */
+  .text-center .twemoji svg,
+  .text-center .emoji svg { /* .emoji is another common class for emoji SVGs */
+    display: inline-block; /* Default, but good to be explicit */
+    /* If you want to make the emoji larger, you can add: */
+    /* width: 3em; */   /* Example: 3 times the current font size */
+    /* height: 3em; */
+    /* vertical-align: middle; */ /* Helps with alignment if text is nearby */
   }
