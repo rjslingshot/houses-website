@@ -1,6 +1,6 @@
 :diamonds::clubs::hearts::spades:  
 
-Welcome to **Houses**, a collection of card games born from a dream, where a standard deck of playing cards holds the key to a world of strategy, conflict, and unfolding stories.
+Welcome to **Houses**, a collection of card games where a standard deck of playing cards holds the key to a world of strategy, conflict, and unfolding stories.
 
 Within **Houses**, the four suits (Diamonds, Clubs, Hearts, and Spades) represent distinct nations with unique cultures, strengths, and ambitions. The nomadic and quick-witted Diamonds, the wild and powerfully brutish Clubs, the vigilant and spiritual Hearts, and the cunning, tactical Spades all vie for influence and survival. Stepping into this world as a player, your choices will shape their destinies.
 
