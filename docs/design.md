@@ -7,7 +7,7 @@ Every game in the **Houses** collection is meticulously crafted according to a s
 * **Depth of Strategy**: Multiple strategies are available to counter random game elements.
 * **Shared Lore and Behavior**: Card abilities and suit actions are similar across games.
 * **Actions Explainable**: Card abilities are understandable through an imaginable narrative.
-* **Designed for Replayability**: Each playthrough offers variability and new challenges.
+* **Designed for Replayability**: Each play through offers variability and new challenges.
 * **Fun**: Every game is built with the intention of being enjoyable!
 
 ---

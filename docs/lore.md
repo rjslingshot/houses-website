@@ -30,7 +30,7 @@ Though we have completed an initial release of the game. We have only rough idea
 - Brutal / Bullies
 - Sloppy and disheveled
 - Forceful politicians and leaders
-- Skillful warriors (berserkers)
+- Skillful warriors (berserker)
 - Careless for the life of others
 
 ### --Hearts--
@@ -55,7 +55,7 @@ From the collection of unique attributes for each house we developed the individ
 
 | Card | Initial Plan | Actual Ability|
 | ----------- | ----------- | ----------- |
-| Soldier | strike quickly | recieve no damage as attacker |
+| Soldier | strike quickly | receive no damage as attacker |
 | Ace | surprise assassination | take action on any turn | 
 | Jack | die, reckless | interrupt opponent’s turn |
 | Queen | magic, slow time | take an additional turn |
