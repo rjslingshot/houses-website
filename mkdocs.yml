@@ -1,7 +1,9 @@
-site_name: HOUSES - The Games
+site_name: HOUSES
 site_url: https://housesthegames.com
 theme:
   name: material
+  icon:
+    logo: material/cards
   
   font: 
     text: Stoke
