@@ -13,3 +13,6 @@
 
 === "Layout"
     Here is an example layout of the game board.
+
+=== "Art Concepts"
+    Here are some art concepts for this game.
