@@ -12,3 +12,4 @@ We initially called this game...
 
 I will admit the concept and introduction is a little cheesy, but that was the intention. It is supposed to have an easy to understand concept on the surface with layers of storytelling and complexity underneath for anyone who might enjoy that. The intent is that anyone should be able to understand and enjoy playing this game. 
 
+We have since expanded beyond "Cards of War" to the concept of Houses as a collection of games. Cards of War has now been retitled to **"Houses - Skirmish"** to make room for the other games, however this game remains a favorite for many reasons.
