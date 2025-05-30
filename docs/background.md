@@ -4,7 +4,7 @@ My sons and I have been developing and play testing this game since its inceptio
 
 We initially called this game...
 
-![Cards of War Logo](assets/COW-Logo.png "Cards of War Logo")
+# Cards of War!
 
 !!! danger "Intro"
 
