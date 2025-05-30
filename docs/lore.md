@@ -52,6 +52,7 @@ Though we have completed an initial release of the game. We have only rough idea
 From the collection of unique attributes for each house we developed the individual abilities of each card. It was a bit of a joke at first, but we new that the action of each house’s Jack card would result in their immediate demise. We wanted this to be a sudden play in the game that might catch an opponent off guard. We also felt that the Queen cards would only remain in battle for a single round and the King would remain in play until it could be defeated. We were also looking for a combination of leadership and magical skills between the houses. Here is a summary of what we came up with for each house.
 
 :diamonds: :material-arrow-right: The "Quick" Diamonds
+
 | Card | Initial Plan | Actual Ability|
 | ----------- | ----------- | ----------- |
 | Soldier | strike quickly | recieve no damage as attacker |
