@@ -1,6 +1,6 @@
 # Skirmish
 
-## Details for HOUSES-Skirmish
+## Details
 
 === "Blog"
     Here is the current updates on the development of this game.
