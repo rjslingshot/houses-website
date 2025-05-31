@@ -1,3 +1,5 @@
+:diamonds::clubs::hearts::spades:  
+
 ## Where this started
 In 2017 I had the idea to create a new game inspired by elements from some of the more strategic, collectible card games that I have enjoyed in the past. The primary difference with our game is that anyone can **play it for free**. The game is **absent of the "pay to win" strategies** that similar games intentionally design. I believe that this game can be simple and **easy to approach** while still offering a **high level of strategic elements** to make it fun for anyone. The best part is that the entire game is designed around a **single deck of standard playing cards**.
 
@@ -13,5 +15,5 @@ We originally titled this game "Cards of War"
 
 I will admit the concept and introduction is a little cheesy, but that was the intention. It is supposed to have an easy to understand concept on the surface with layers of storytelling and complexity underneath for anyone who might enjoy that. The intent is that anyone should be able to understand and enjoy playing this game.
 
-## Expansion beyond first game
+## Beyond that first game
 We have since expanded beyond "Cards of War" to the concept of Houses as a collection of games. Cards of War itself, has now been retitled to **"Houses - Skirmish"** to make room for the other games, however this game remains a favorite for many reasons.

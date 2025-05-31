@@ -1,4 +1,7 @@
-Every game in the **Houses** collection is meticulously crafted according to a set of core design tenants, ensuring a consistently rich and rewarding experience:
+:diamonds::clubs::hearts::spades:  
+
+## Core Tenants
+Every game in the **Houses** collection is meticulously crafted according to a set of design guidelines, ensuring a consistently rich and rewarding experience:
 
 * **Playing Cards Only**: Every game uses a simple deck of playing cards as its core engine.
 * **Luck of the Draw**: Players draw random cards and must adapt their strategy to win with them.

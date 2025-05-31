@@ -1,6 +1,8 @@
+---
+hide:
+  - toc  # This hides the table of contents for this page
+---
 # HOUSES - Espionage
-
-## Details
 
 === "Blog"
     Here is the current updates on the development of this game.
