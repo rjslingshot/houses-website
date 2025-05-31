@@ -2,7 +2,7 @@
 hide:
   - toc  # This hides the table of contents for this page
 ---
-# HOUSES - Warlords
+# HOUSES - Skirmish
 
 === "Blog"
     ### Spring '22 Updates
