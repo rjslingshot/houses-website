@@ -5,7 +5,23 @@ hide:
 # HOUSES - Skirmish
 
 === "Blog"
-    ### Spring '22 Updates
+    
+    ## Spring '25 Updates
+
+    We now have a new layout for the website that allows room for the other games in the Houses collection. This new website design is easier to maintain with a smoother flow for both desktop and mobile browsers. 
+    
+    The official rules for Houses-Skirmish have also been updated to reflect the changes we have been considering and testing over the last couple of years. Here are the highlights: 
+    
+    - We chose to have the Kings provide enhancements to the House Traits. This will not break the game while adding layers for strategy. Choosing when to deploy your King and determining if your opponent's King is a threat will be a nuanced decision now.
+    - The House Traits themselves were altered as well. The traits each have a unique flavor that makes each suite feel different in play style and theme. An "Enhanced" version of each trait has also been included.
+    - The Scouts (*the two card for each suite*) is official now. This added a very nice touch by adding strategic choices with a card that was essentially useless before.
+    - Joker variants are part of the rules as well. This also added more depth and strategy to the game and opened room for homebrew options or further joker variants. Players must declare the variant that is being deployed.
+    - The "Soul Burned" designation for cards has been added. This includes a way to identify and manage this status as well.
+    - We also provided clarification and better guidelines for various other game mechanics.
+
+    [Here are the new Rules](#__tabbed_1_2)
+
+    ## Spring '22 Updates
     
     We are still tweaking and finalizing some elements of the game. The ruleset summary above is what we are currently testing as the foundation of the next full release of Houses.
 
@@ -612,7 +628,7 @@ hide:
 
     ---
     [Houses-Skirmish Rules(PDF)](../assets/houses-skirmish-rules-v1.pdf)
-    
+
     Designed by:
 
     Ryan Jennings, Micah Jennings, Hayden Jennings, Marshall Jennings
