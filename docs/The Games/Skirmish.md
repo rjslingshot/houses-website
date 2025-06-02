@@ -627,7 +627,7 @@ hide:
         * Spade deals full attack damage to each blocker independently; Spade takes combined attack damage from both.
 
     ---
-    [Houses-Skirmish Rules(PDF)](../assets/houses-skirmish-rules-v1.pdf)
+    [Houses-Skirmish Rules(PDF)](../assets/Houses-Skirmish-Offical-Rules.pdf)
 
     Designed by:
 
