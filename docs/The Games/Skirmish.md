@@ -623,7 +623,7 @@ hide:
     * Units taking more damage than their defense value are defeated and sent to Barrows (face up, unless Soul Burned).
 
     ---
-    [Houses-Skirmish Rules(PDF)](../assets/Houses-Skirmish-Offical-Rules.pdf)
+    [Houses-Skirmish Rules(PDF)](../assets/Houses-Skirmish-Official-Rules.pdf)
 
     Designed by:
 
