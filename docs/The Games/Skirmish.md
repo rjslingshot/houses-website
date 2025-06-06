@@ -364,40 +364,50 @@ hide:
             * [2-Cards (Scouts/Soldiers)](#2-cards)
             * [3-10 Cards (Soldiers)](#3-10-cards)
         * [House Traits (Applied to Soldiers 2-10)](#house-traits)
+        * [Blood Bonds](#blood-bond)
         * [Jacks (Instant Actions)](#jacks)
         * [Queens (Significant Single Actions)](#queens)
         * [Kings](#kings)
-        * [Aces (Poison)](#aces)
-        * [Jokers (Variants)](#jokers)
-        * [Blood Bond](#blood-bond)
+        * [Aces](#aces)
+        * [Jokers](#jokers)
     5.  [Starting the Game](#starting-the-game)
     6.  [Turn Sequence](#turn-sequence)
-        * [A. READY Phase](#ready-phase)
-        * [B. DRAW Phase](#draw-phase)
-        * [C. DEPLOY & ABILITIES Phase](#deploy-abilities-phase)
-        * [D. RESPONSE Phase](#response-phase)
-        * [E. COMBAT Phase](#combat-phase)
-        * [F. RESOLVE DAMAGE Phase](#resolve-damage-phase)
-        * [G. END TURN Phase](#end-turn-phase)
+        * [READY Phase](#ready-phase)
+        * [DRAW Phase](#draw-phase)
+        * [DEPLOY Phase](#deploy-phase)
+        * [RESPONSE Phase](#response-phase)
+        * [COMBAT Phase](#combat-phase)
+        * [RESOLUTION Phase](#resolution-phase)
+        * [END TURN Phase](#end-turn-phase)
     7.  [Combat](#combat)
         * [Declaring Attacks & Valid Targets](#declaring-attacks-valid-targets)
         * [Declaring Defenders](#declaring-defenders)
         * [Resolving Damage](#resolving-damage-combat)
-        * [Special Combat Interactions (e.g., Spades Dual Wielding)](#special-combat-interactions)
-
+   
     ---
+
+    <div align="center">
+    ![Houses Logo](../assets/houses-logo.png "Houses Logo")
+    </div>
 
     ## 1. Introduction
 
     <a id="game-overview"></a>
     ### Game Overview
-    War is upon us! The kingdoms are divided and the land is in turmoil. Bring stability to the people by defeating the opposition to rule supremely over all. To do this, you must recruit forces from the four royal houses; the quick Diamonds, brutal Clubs, vigilant Hearts and cunning Spades. Houses-Skirmish is a game of luck as well as strategy. Each turn a random member of the four houses is drawn from the shared deck and chooses to fight by your side. Who will come to your aid? Will you be victorious?
+    !!! danger ""
 
-    This game uses a standard 52-card deck, with optional Jokers, for 2 or more players.
+        *War is upon us! The kingdoms are divided and the land is in turmoil. Bring stability to the people by defeating the opposition to rule supremely over all. To do this, you must recruit forces from the four royal houses; the quick Diamonds, brutal Clubs, vigilant Hearts and cunning Spades. Cards of War is a game of luck as well as strategy. Each turn a random member of the four houses is drawn from the shared deck and chooses to fight by your side. Who will come to your aid? Will you be victorious?*
+
+    Houses-Skirmish is a game of luck and strategy. Each turn a random member of the four houses is drawn from the shared deck and chooses to fight by your side. Who will come to your aid? Will you be victorious?
+    
+    This game uses a standard deck of playing cards. Inclusion of the Jokers is optional, see below for more details. This game can be played with 2 or more players.
 
     <a id="object-of-the-game"></a>
     ### Object of the Game
-    The primary object of the game is to be the last player remaining by reducing all opponents' life points from 40 to 0. An alternate victory condition occurs if the deck runs out, triggering a "sudden death" round where the player with the lowest life points at the end loses.
+    The primary object of the game is to be the last player remaining by reducing all opponents' life points from 40 to 0. Players lose life points when they are successfully attacked by an opponent’s units. Points lost are directly relational to the attack power of each card.
+
+    If the last card is drawn from the deck then a "sudden death" scenario occurs. Each player takes one more round starting with the player who drew the last card.  The player with the highest life points following this final round wins the game.
+
 
     <a id="about-these-rules"></a>
     ### About These Rules
@@ -405,6 +415,7 @@ hide:
 
     ---
 
+    <a id="game-terminology"></a>
     ## 2. Game Terminology
     This section highlights some of the most common terms used throughout the game. 
 
@@ -438,12 +449,13 @@ hide:
 
     <a id="soldier-units"></a>
     ### Soldier Units (Cards 2-10)
-    Deployed to Front Ranks. They utilize their House Trait (see [House Traits](#house-traits)).
+    Deployed to Front Ranks. They utilize their House Trait (see [House Traits](#house-traits)). All soldiers are <u>deployed in an exhausted state</u> and cannot attack for one round (unless card ability allows otherwise).
 
     <a id="2-cards"></a>
-    **2-Cards (Scouts/Soldiers):** Dual nature. When played from hand during DEPLOY & ABILITIES Phase, choose one..
+    **2-Cards (Scouts/Soldiers):** The two cards of each house may be deployed in two different ways.
 
-    1. **Use Scout Ability:** Announce and resolve the suit-specific ability. The "2" card usually goes to Barrows unless its ability states otherwise.
+    1. **Deploy as a Scout:** The two may be deployed as a scout. Each house’s card offers a different tactic for scouting. Following the deployment as a Scout, the two will typically move to the Barrows, unless stated otherwise.
+
         * **2 of Diamonds (Scout):** Randomly select 2 cards from opponent's hand; reveal. Send 2 of Diamonds to Barrows.
         * **2 of Clubs (Scout):** Randomly select 1 card from opponent's hand; reveal. Revealed card goes to Barrows. Send 2 of Clubs to Barrows.
         * **2 of Hearts (Scout):** Randomly select 1 card from opponent's their hand; reveal. Deploy this 2 of Hearts as a +2/+2 soldier.
@@ -451,8 +463,6 @@ hide:
     
     2. **Deploy as a Soldier:** Deploy as a +2/+2 soldier unit. Follows normal soldier rules (exhaustion, House Trait).
 
-  
-    
     <a id="3-10-cards"></a>
     **3-10 Cards (Soldiers):** Standard military units. Attack/Defense = card number (e.g., 7 is +7/+7). Deployed to Front Ranks, exhaust when attacking.
 
@@ -460,171 +470,157 @@ hide:
     ### House Traits (Applied to Soldiers 2-10)
     Each suit (House) has a unique trait for its soldier units (2-10). Enhanced by a same-suit King in your Rear Ranks.
 
-    1.  **Diamonds: Quick Recovery (Defense Ability)**
-        * **Normal:** If an exhausted Diamond soldier could block, its controller may ready it to block. It deals no combat damage (still receives damage).
-        * **Enhanced (with Diamond King):** When using Quick Recovery to block, it deals normal combat damage.
-    2.  **Clubs: Raging Charge (Attack Ability)**
+    1.  **Diamonds: Agile Deployment)**
+        * **Normal:** Diamond soldiers enter the battlefield un-exhausted and ready to act on that turn.
+        * **Enhanced** (with :diamonds: King): If defending an ally, Diamond’s soldiers  may deliver damage first during the RESOLUTION Phase.
+    2.  **Clubs: Raging Charge**
         * **Normal:** If attacking Clubs soldier deals excess damage to a blocker, excess may be dealt to defending player or another Front Rank unit.
-        * **Enhanced (with Club King):** If defeated while attacking, Clubs soldier deals its full attack value again to one additional target (player or any rank unit).
-    3.  **Hearts: Magic Shield (Defense Ability)**
-        * **Normal:** Once per battlefield presence, if a Hearts soldier would be defeated by combat damage while blocking, it is not. Mark ability used.
-        * **Enhanced (with Hearts King):** When blocking, Hearts soldier receives no combat damage (still deals its normal damage).
+        * **Enhanced** (with :clubs: King): If defeated while attacking, Clubs soldier deals its full attack value again to one additional target (player or any rank unit).
+    3.  **Hearts: Magic Shield**
+        * **Normal:** As an exhausted unit, Hearts soldiers may still defend an ally unit
+        * **Enhanced (with :hearts: King):** If a Hearts soldier would receive lethal damage while defending an ally, they may block the damage and return to their owner’s hand instead of the Barrows. A poisoned Heart will always go to the Barrows rather than the owner’s hand.
     4.  **Spades: Dual Wielding (Attack Ability)**
-        * **Normal:** If an attacking Spades soldier is blocked, and defender has 2+ eligible Front Rank blockers, defender must assign two to block. Spade deals full damage to each independently; takes combined damage from both. (If only one blocker, it blocks alone).
-        * **Enhanced (with Spades King):** When Normal conditions met, Spades player (attacker) chooses which two opposing Front Rank units block.
+        * **Normal:** When attacking, Spades soldiers may target up to two units in an opposing player’s Front ranks. 
+        * **Enhanced (with :spades: King):** When attacking, Spades soldiers may target up to two units in either an opposing Front or Rear ranks.
+
+    <a id="blood-bond"></a>
+    ### Blood Bonds
+    Two soldier cards of the same house (suit) may work together to form a single unit. A Blood bonded unit may be created or split during the DEPLOY Phase.  A Blood Bonded unit only occupies a single space in a player’s Front Ranks.
+    
+    * When a Blood Bonded unit is created, one of the cards must be designated as the leader by placing it on top. All damage is applied to this card first. 
+    
+    * When splitting a Blood Bonded unit during the DEPLOY Phase, any card that does not fit within the space requirements of the Front Ranks must move to the Barrows face up. 
+    
+    * Blood Bonded units should be treated as a single unit. Any ability or action that impacts a unit, would impact both cards within a Blood Bonded unit.
+    
+    * Summoned cards may not form a Blood Bonded unit.
+
 
     <a id="jacks"></a>
-    ### Jacks (Instant Actions)
-    Represent sudden decisions. Played instantly (e.g., opponent's RESPONSE Phase). Removed to Barrows (face up) at end of phase their ability resolves.
+    ### Jacks (+0/+11)
+    The Jacks represent a sudden decision or action that may be activated during the DEPLOY or RESPONSE Phases. Following this action, the Jack is placed face up in the Barrows. Jacks are deployed to the owner’s Rear Ranks.
 
-    * **Jack of Diamonds:** Interrupts opponent's turn. Last card opponent deployed is sent to Barrows, and their turn ends immediately. (Play during opponent's DEPLOY & ABILITIES or RESPONSE Phase).
-    * **Jack of Clubs:** Choose one of your units on battlefield. It deals double damage this turn (attacking, defending, or via ability).
-    * **Jack of Hearts:** Negate all damage that would be dealt to all your allied units this turn. (Play during opponent's COMBAT Phase before damage, or vs. damage effect).
-    * **Jack of Spades:** Gain control of any one unit in play; place affected card(s) into your hand.
+    * **Jack of Diamonds:** The turn is immediately ended and the last card played will be sent to the Barrows.
+    * **Jack of Clubs:** A unit of choice will deal double damage this turn.
+    * **Jack of Hearts:** A unit of choice is protected from all damage that may be dealt to it this turn.
+    * **Jack of Spades:** Immediately gain ownership and move into your Ranks, any unit on the Battlefield. You must have space within your Ranks to accommodate this.
 
     <a id="queens"></a>
-    ### Queens (Significant Single Actions)
-    Single, powerful actions on your turn (DEPLOY & ABILITIES Phase). Queen's ability resolves, then she is removed to Barrows (face up) at end of DEPLOY & ABILITIES Phase. Does not enter battlefield directly.
+    ### Queens (+0/+12)
+    The Queens represent a powerful action or maneuver that may be activated during the DEPLOY or RESPONSE Phases. Following this action, the Queen is placed face up in the Barrows. Queens are deployed to the owner’s Rear Ranks.
 
-    * **Queen of Diamonds:** Take one additional turn after this one concludes.
-    * **Queen of Clubs:** Choose any two units currently in play; send them to the Barrows.
-    * **Queen of Hearts:** Choose a face-up card from any Barrows; place it into your hand. (If this resurrected card is later defeated/removed, it becomes Soul Burned).
-    * **Queen of Spades:** Look at top four cards of the deck. Keep one, place remaining three back on top in any order.
+    * **Queen of Diamonds:** Following the completion of your next turn, immediately take one more.
+    * **Queen of Clubs:** Choose any two units currently on the battlefield and send them to the Barrows.
+    * **Queen of Hearts:** Choose a face-up card from the Barrows and place it directly onto the Battlefield. This unit can only join your forces if you have room within your ranks. If this unit is defeated it is placed **face down** in the Barrows.
+    * **Queen of Spades:** Look at the top four cards of the deck. Keep one and place the remaining three back on top in any order.
 
     <a id="kings"></a>
     ### Kings (+0/+13)
-    Deployed to Rear Ranks. Prolonged influence. Max one King per player.
-    * **Primary Role:** Enhance House Trait of allied soldier units (2-10) of the same suit (see [House Traits](#house-traits)).
-    * No other individual abilities beyond stats and trait enhancement. Remain until defeated (cannot be recalled except by card effects).
+    The Kings join the Battlefield to support their army and greatly boost the House Traits of Soldiers. All allied units that share a suit with the King may use the Advanced version of their House Traits. Each player may only have a single King on the Battlefield at a time, and Kings are deployed to the Rear Ranks.
 
     <a id="aces"></a>
-    ### Aces (+1/+0, Poison)
-    Professional assassins. Deployed to Rear Ranks (DEPLOY & ABILITIES Phase).
+    ### Aces (+1/+0 - Poison)
+    The Aces are professional assassins from each house and deployed to Rear Ranks. Aces can target any Unit on the Battlefield and this cannot be blocked. Targeted units are poisoned and will be placed in the Barrows at the end of the turn. Unless specified otherwise, the Ace will be moved to the Barrows as well, after striking its target.
 
-    **Poison:** Units damaged by an Ace (combat or ability) are poisoned. Poisoned units removed to Barrows during current turn's END TURN Phase. The Ace itself is removed to Barrows at the end of turn it poisoned/attacked, unless ability states otherwise (e.g., Ace of Hearts). Cannot poison a player.
-
-    * **Ace of Diamonds:** Deployed and attacks instantly (any player's turn, typically RESPONSE Phase). Attacks one target unit (as Rear Rank unit). Removed at END TURN Phase.
-    * **Ace of Clubs:** When deployed, choose one target unit; it's damaged (poisoned). Target's owner discards a random card to Barrows.
-    * **Ace of Hearts:** When deployed, choose one target unit; it's damaged (poisoned). If room in Rear Ranks, Ace of Hearts may remain as a +1/+0 guard (defends only). Units blocked by guard are poisoned. Removed at END TURN Phase if it applied poison and wasn't defeated.
-    * **Ace of Spades:** When deployed, choose one target soldier unit; it's damaged (poisoned). If target is a soldier, Ace may immediately damage a second adjacent soldier (also poisoned).
+    * **Ace of Diamonds:** The Ace of Diamonds may deploy and attack on either the DEPLOY or RESPONSE Phases. The target is immediately moved to the Barrows. During that phase.
+    * **Ace of Clubs:** When the Ace of Clubs target leaves the battlefield, that unit’s owner must send an additional random card to the Barrows.
+    * **Ace of Hearts:** The Ace of Hearts may redeploy to the Rear Ranks as a (+0/+1) defender after its target has been defeated. Any unit blocked by this Ace of Hearts will be poisoned.
+    * **Ace of Spades:** If the Ace of Spades targets a unit in the Front Ranks, then an additional Front Rank unit may be targeted. Both targets will be poisoned.
 
     <a id="jokers"></a>
-    ### Jokers (+0/+14 base, Variants)
-    Rare, powerful entities. Deployed to Rear Ranks (DEPLOY & ABILITIES Phase). Declare which variant's abilities are used when playing. Defense +14.
+    ### Jokers (+0/+14 - Variants)
+    The Jokers are rare and powerful entities. The player may choose which variant of the Black or Red Joker is deployed. Jokers are deployed to the Rear Ranks. Effects or abilities of Jokers take effect during the DEPLOY Phase in which they are deployed onto the Battlefield. Inclusion of the Jokers is optional, so both players must agree to include them at the start of the game.
 
-    1.  **Black Joker Variants (Choose one):**
-        * **Doppelganger:** Imitates any other non-Joker card legally in play (player's choice). Gains all abilities, stats, type of chosen card; deploys to appropriate rank. Treated as that card. If imitated card leaves play, Doppelganger leaves play (to Barrows). (If imitates resurrection, Soul Burned applies; only resurrects face-up cards).
-        * **Necromancer (+0/+14):** On entry, and once per your DEPLOY & ABILITIES Phase, choose one Front Rank unit (2-10 card) from face-up cards in any Barrows. Place on your Front Ranks (acts immediately, not exhausted). At start of your next turn, summoned unit becomes Soul Burned. Necromancer remains until defeated.
-    2.  **Red Joker Variants (Choose one):**
-        * **Insane Wizard (+0/+14):** On entry, casts enchantment: Opposing soldier units (2-10) lose House Traits while Wizard in play. Also, on entry, all currently Blood Bonded units controlled by opponents are immediately separated (owner places separated cards, following rank limits; excess to Barrows face up). Wizard remains until defeated.
-        * **Binding Spirit (+0/+14):** Your soldier units (2-10) may Blood Bond with any other of your soldier units, regardless of House (suit). Declare leader for mixed-House bond; leader's House Trait applies. All other Blood Bond rules apply. Spirit remains until defeated.
-
-    <a id="blood-bond"></a>
-    ### Blood Bond
-    * **Formation:** Two soldier cards of the same house (suit) can combine to form a single unit. (Binding Spirit Joker allows mixed-House bonds).
-    * **Action:** Formed/separated via the Redeploy action during DEPLOY & ABILITIES Phase.
-        * Combine two unbonded soldiers from Front Ranks.
-        * Combine one Front Rank soldier with one from hand (of same suit).
-    * **Mechanics:**
-        * Stacked formation; one designated leader (top card). Damage applied top-down. Leader can be defeated, leaving other card.
-        * Counts as one unit for rank limits.
-        * If both cards in play and ready, bonded unit is ready. If one is exhausted/newly deployed, bonded unit is exhausted.
-    * **Separation:** Via Redeploy action. One card can remain, move, or return to hand. Second card to empty slot or hand. Front Rank separation needs an empty slot for second card if both stay, otherwise one to hand or Barrows.
+    1.  **Black Joker** (Choose one):
+        * **Doppelganger:** Imitates any other unit of the Player’s choice. The Doppelganger gains all abilities and stats of the chosen unit and is deployed to the appropriate rank. 
+        * **Necromancer (+0/+14):** The Necromancer may (once per turn) allow the player to summon a face up Soldier card from the Barrows during the DEPLOY Phase. That summoned card is immediately placed unexhausted onto the Battlefield (if space permits) and may attack that same turn. Summoned cards will leave the Battlefield during the owner’s READY Phase (at the start of the next turn) and placed in the Barrows **face down**.
+    2.  **Red Joker** (Choose one):
+        * **Insane Wizard (+0/+14):** The Insane Wizard casts a spell of madness on all units in the opposing Front Ranks. All opposing Soldiers lose access to utilize their House Traits and the ability to form Blood Bonds. Any existing Blood Bonded units must be separated. All Front Rank size limits apply. The opposing plate must decide which 4 units remain on the Battlefield and all others will move to the Barrows face up.  
+        * **Binding Spirit (+0/+14):** The Binding Spirit flows about your army, infusing them a sense of togetherness. Now all allied units may form Blood Bonds, regardless of their affiliated house. The Blood Bonded unit’s leader defines the House Trait for the unit as a whole. All other Blood Bond rules still apply.
 
     ---
-
+    <a id="starting-the-game"></a>
     ## 5. Starting the Game
 
-    1.  **Shuffle and Place Deck:** Shuffle the deck (including optional Jokers) and place it within reach of all players.
-    2.  **Draw Starting Hands:** Starting with a randomly chosen player and going clockwise, each player draws 1 card at a time until all have 5 cards.
-    3.  **Determine Starting Player (Advantage Draw):**
+    1.  **Shuffle and Place Deck:** Shuffle the deck (Jokers are optional) and place it within reach of all players.
+    2.  **Draw Starting Hands:** Each player draws 1 card at a time until all have 5 cards..
+    3.  **Determine Starting Player** (Advantage Draw):
         * All players draw one additional card.
         * Card values for this draw: Jokers (lowest), Ace (1), 2-10 (face value), Jack (11), Queen (12), King (13, highest).
-        * Player with highest card wins advantage. Ties redraw until single winner.
-        * Winner chooses to start first or defer.
+        * The Player with highest card wins advantage. Ties redraw until single winner.
+        * <u>Winner chooses to start first **or** defer.</u>
     4.  **Cards to Barrows:** All cards from Advantage Draw go face up into the Barrows.
-    5.  **Begin First Turn:** First player begins. No card draw on the very first turn of the game.
+    5.  **Begin First Turn:** The First player cannot draw a card and must begin the match with the 5 cards in their hand. 
 
     ---
-
+    <a id="turn-sequence"></a>
     ## 6. Turn Sequence
     Each player completes these phases in order on their turn:
 
     <a id="ready-phase"></a>
     ### A. READY Phase
-    * Straighten (untap) all your exhausted units.
-    * Units summoned by Necromancer Joker in play since your last turn are removed (become Soul Burned).
+    * Straighten all your exhausted units to indicate a ready status.
+    * Any units summoned by the Necromancer still in play from your last turn are removed from the Battlefield and become Soul Burned. Place them in the Barrows **face down**.
 
     <a id="draw-phase"></a>
     ### B. DRAW Phase
     * Draw one card from the shared deck.
 
-    <a id="deploy-abilities-phase"></a>
-    ### C. DEPLOY & ABILITIES Phase
-    1.  **Deploy New Units:** From hand to valid empty ranks. Choose Scout ability or soldier for 2-Cards. Declare Joker variant.
-    2.  **Redeploy Action (One only):**
-        * Move one of your units on battlefield to another valid empty position.
+    <a id="deploy-phase"></a>
+    ### C. DEPLOY Phase
+    * The following actions make take place in any order:
+
+        * Deploy a new unit to the battlefield into a valid space within your Ranks
         * Return one of your units from battlefield to hand (cannot redeploy this turn).
-        * Form a Blood Bond (see [Blood Bond](#blood-bond) for details).
-        * Separate a Blood Bonded unit (see [Blood Bond](#blood-bond) for details).
-    3.  **Resolve Abilities:** Triggered by entry, deployment, or use (Scouts, Queens, Kings, Aces, etc.).
+        * Split or form any Blood Bonds (see Blood Bond for details).
+        * Resolve any abilities triggered upon deployment of Scouts, Jacks, Queens, Kings, Aces, etc..
+
 
     <a id="response-phase"></a>
     ### D. RESPONSE Phase
-    * After current player finishes DEPLOY & ABILITIES actions, opponents may play instant-speed cards (Jacks, Ace of Diamonds) or activate instant abilities. Resolve in order.
+    * After the current player finishes DEPLOY actions, opponents may make their RESPONSE with any cards that are specifically able to Deploy or Activate during this phase. 
 
     <a id="combat-phase"></a>
     ### E. COMBAT Phase
-    *(See Section 7. [Combat](#combat) for detailed rules)*
-    1.  **Declare Attackers:** Current player declares which ready units attack and their targets.
-    2.  **Declare Defenders:** Defending player declares which ready units block.
-    3.  **Spades "Dual Wielding" Interaction:** Apply if relevant.
+    
+    1.  The current player declares which readied units will be attacking and their targets. 
+    2.  The owner of targeted units, will declare which available units will defend. 
 
     <a id="resolve-damage-phase"></a>
     ### F. RESOLVE DAMAGE Phase
-    *(See Section 7. [Combat](#combat) for detailed rules)*
-    1.  **Calculate & Apply Damage:** Simultaneously.
-    2.  **Apply Traits/Abilities:** Affecting combat damage.
-    3.  **Remove Defeated Units:** To Barrows (face up, unless Soul Burned).
-    4.  **Resolve Post-Combat Effects.**
+    
+    1.  Calculate and apply damage simultaneously to all attackers and blockers (unless card ability allows otherwise).  
+    2.  Remove Defeated Units to Barrows (face up, unless Soul Burned then face down). 
+    3.  Resolve any post-combat effects or abilities.
 
     <a id="end-turn-phase"></a>
     ### G. END TURN Phase
-    * "End of turn" effects trigger (e.g., poison removal by Aces).
-    * Pass turn to next player.
+    * "End of turn" effects or abilities.
+    * Pass turn to the next player.
 
     ---
 
     ## 7. Combat
 
     <a id="declaring-attacks-valid-targets"></a>
-    ### Declaring Attacks & Valid Targets
-    * **Rear Rank Attackers (Kings, Aces, Jokers, Queens pre-resolution):** Can target any opponent's rank (Front or Rear) or opponent directly.
-    * **Front Rank Attackers (Soldiers 2-10):** Can only target opposing player directly or units in opposing Front Ranks (unless card ability allows otherwise).
+    ### Declaring Attackers (COMBAT Phase)
+    * **Rear Rank Attackers** (Aces, Jokers, Queens, Kings): Can target any unit within the opponent's ranks (Front or Rear) or the opponent directly.
+    * **Front Rank Attackers** (Soldiers 2-10): Can only target opposing players or units in opposing Front Ranks (unless card ability allows otherwise).
     * Multiple units can target one enemy unit/player.
-    * Attackers must be ready (not exhausted).
+    * Attackers must be ready or not exhausted (unless card ability states otherwise).
 
     <a id="declaring-defenders"></a>
-    ### Declaring Defenders
-    * Defending player declares which ready units block.
-    * Typically, only Front Rank units can block (unless card ability states otherwise).
-    * Each defender blocks one attacker.
+    ### Declaring Defenders (COMBAT Phase)
+    * The defending player declares units that will be defending.
+    * Any readied Front Rank unit may intercept or defend an attack directed to an allied unit or player (unless card ability allows otherwise).
+    * Each defender can only be assigned to block one attacker (unless card ability allows otherwise).
 
     <a id="resolving-damage-combat"></a>
-    ### Resolving Damage
-    * All combat damage dealt simultaneously.
-    * Blocked attackers and their blockers deal damage to each other.
-    * Unblocked attackers deal damage to player or targeted Rear Rank unit.
-    * Apply relevant House Traits/abilities (e.g., Diamond's Quick Recovery, Club's Raging Charge, Hearts' Magic Shield, Jack of Clubs' double damage).
-    * Units taking damage >= defense value are defeated and sent to Barrows (face up, unless Soul Burned). Hearts' Magic Shield can prevent defeat.
-    * Resolve any effects triggered by combat.
-
-    <a id="special-combat-interactions"></a>
-    ### Special Combat Interactions
-    * **Spades "Dual Wielding" Trait:** If an attacking Spades soldier (2-10) is blocked, and defender has 2+ eligible Front Rank blockers, defender must assign two to block that Spade.
-        * If Spades soldier is enhanced by Spades King, Spades player (attacker) chooses the two blockers.
-        * If only one eligible blocker, it blocks alone.
-        * Spade deals full attack damage to each blocker independently; Spade takes combined attack damage from both.
+    ### Resolving Damage (RESOLUTION Phase)
+    * Blocked attackers and the defender damage each other simultaneously (unless card ability allows otherwise).
+    * Unblocked attackers apply damage to targeted units or players.
+    * Consider relevant or active House Traits/abilities.
+    * Units taking more damage than their defense value are defeated and sent to Barrows (face up, unless Soul Burned).
 
     ---
     [Houses-Skirmish Rules(PDF)](../assets/Houses-Skirmish-Offical-Rules.pdf)
@@ -635,64 +631,64 @@ hide:
 
 === "Summary"
     <a id="summary"></a>
-    *This is a quick reference guide for experienced players.*
+    ##*This is a quick reference guide for experienced players..*
 
-    **Player Turn Phases:**
+    ###**Player Turn Phases:**
 
-    1.  **READY:** Untap units. Necromancer units may become Soul Burned.
+    1.  **READY:** Unexhaust units. Summoned units move to Barrows.
     2.  **DRAW:** Draw 1 card.
-    3.  **DEPLOY & ABILITIES:** Deploy units, use 1 Redeploy action (move, return to hand, form/separate Blood Bond), resolve on-play abilities.
-    4.  **RESPONSE:** Opponents play instants.
+    3.  **DEPLOY:** Deploy move, return, split or create Blood Bonds for units.
+    4.  **RESPONSE:** Opponents respond to deployments.
     5.  **COMBAT:** Declare attackers/defenders.
-    6.  **RESOLVE DAMAGE:** Calculate damage, apply traits, remove defeated.
-    7.  **END TURN:** End-of-turn effects, pass turn.
+    6.  **RESOLUTION:** Calculate damage, apply traits, remove defeated units.
+    7.  **END TURN:** "End of turn" effects, pass turn.
 
-    **House Traits (Soldiers 2-10):**
+    ###**House Traits** (Soldiers 2-10):
 
-    * **:diamonds: (Quick Recovery - Defense):**
-        * *Normal:* Exhausted unit can ready to block (deals no damage).
-        * *Enhanced (w/ King):* Deals normal damage when blocking this way.
-    * **:clubs: (Raging Charge - Attack):**
-        * *Normal:* Excess damage to blocker can hit player or another Front Rank unit.
-        * *Enhanced (w/ King):* If defeated attacking, deals full attack again to 1 additional target.
-    * **:hearts: (Magic Shield - Defense):**
-        * *Normal:* Once, if would be defeated blocking, is not.
-        * *Enhanced (w/ King):* Receives no combat damage when blocking.
-    * **:spades: (Dual Wielding - Attack):**
-        * *Normal:* If blocked & opponent has 2+ eligible blockers, must use two. Spade hits both; takes combined damage.
-        * *Enhanced (w/ King):* Attacker chooses the two blockers.
+    * **:diamonds: (Quick Recovery):**
+        * *Normal:* Enter battlefield un-exhausted.
+        * *Enhanced (w/ King):* Defending damage to be resolved first.
+    * **:clubs: (Raging Charge):**
+        * *Normal:* Excess damage is passed onto the unit or player of choice.
+        * *Enhanced (w/ King):* Defeated while attacking, full damage to one target.
+    * **:hearts: (Magic Shield):**
+        * *Normal:* Defend while exhausted but cannot apply damage when doing so.
+        * *Enhanced (w/ King):* If defeated while defending aly, return to the player’s hand.
+    * **:spades: (Dual Wielding):**
+        * *Normal:* Target two units in opposing Front Ranks
+        * *Enhanced (w/ King):* Target two units in any opposing rank
 
-    **Blood Bond:** Two soldiers of same House (suit) combine into one unit (leader's trait applies). Redeploy to form/separate. (Binding Spirit Joker allows mixed-House bonds).
+    ###**Blood Bonds:** 
+    Two soldiers of the same House (suit) combine into a single unit .
 
-    **The Cards:**
+    ###**The Cards:**
 
-    * **2-Cards (Scouts/Soldiers +2/+2):**
-        * *Scout :diamonds::* Reveal 2 random opp. hand cards. -> Barrows.
-        * *Scout :clubs::* Reveal & Barrows 1 random opp. hand card. -> Barrows.
-        * *Scout :hearts::* Reveal 1 random opp. hand card. Deploy self as +2/+2 soldier.
-        * *Scout :spades::* Reveal & take 1 random opp. hand card. -> Barrows.
-    * **3-10 Cards (Soldiers):** Stats = card number (e.g., 7 is +7/+7). Use House Trait.
-    * **Jacks (Instant, to Barrows after use):**
-        * **:diamonds::** End opponent's turn, last deployed card to Barrows.
-        * **:clubs::** Target allied unit deals double damage this turn.
-        * **:hearts::** Negate all damage to your allies this turn.
-        * **:spades::** Gain control of any unit; place in your hand.
-    * **Queens (Use on own turn, to Barrows after ability):**
-        * **:diamonds::** Take an additional turn.
-        * **:clubs::** Remove any two units from play (to Barrows).
-        * **:hearts::** Resurrect 1 card from Barrows to hand (becomes Soul Burned if defeated again).
-        * **:spades::** Look at top 4 deck cards, keep 1, return 3.
-    * **Kings (+0/+13, Rear Ranks):** Enhance same-suit soldiers' House Traits. Max 1 King.
-    * **Aces (+1/+0, Rear Ranks, Poison, to Barrows end of turn unless specified):**
-        * **:diamonds::** Deploy & attack instantly (any turn).
-        * **:clubs::** Target unit poisoned; its owner discards 1 random card.
+    * **Twos** (Scouts/Soldiers +2/+2):
+        * *Scout :diamonds::* Reveal 2 random opp. hand cards. 
+        * *Scout :clubs::* Reveal & Barrows 1 random opp. hand card. 
+        * *Scout :hearts::* Reveal 1 random opp. hand card. Deploy as +2/+2 soldier.
+        * *Scout :spades::* Reveal & take 1 random opp. hand card. 
+     * **Jacks** (+0/+11, Rear Ranks):
+        * **:diamonds::** End turn, last deployed card to Barrows.
+        * **:clubs::** Target allied unit will deal double damage this turn.
+        * **:hearts::** Negate all damage to an ally this turn.
+        * **:spades::** Gain control of any unit; place it in your hand.
+    * **Queens** (+0/+12, Rear Ranks):
+        * **:diamonds::** Take an additional turn following your next turn.
+        * **:clubs::** Remove any two units from the Battlefield to the Barrows.
+        * **:hearts::** Resurrect 1 card from Barrows to Battlefield
+        * **:spades::** Look at the top 4 deck cards, keep 1, return 3.
+    * **Kings** (+0/+13, Rear Ranks): Enhance same-suit soldiers' House Traits. Max 1 King.
+    * **Aces** (+1/+0, Rear Ranks):
+        * **:diamonds::** Deploy & may attack instantly and target is removed immediately.
+        * **:clubs::** Target unit poisoned and opponent discards 1 random card.
         * **:hearts::** Target unit poisoned. May remain as +1/+0 guard (poisons blockers).
-        * **:spades::** Target soldier poisoned. If soldier, poison 1 adjacent soldier too.
-    * **Jokers (+0/+14, Rear Ranks, Declare Variant):**
-        * **Black - Doppelganger:** Copies another non-Joker card (stats, abilities, type).
-        * **Black - Necromancer:** On entry & 1/turn: Summon 2-10 from Barrows (acts now, Soul Burned next turn).
-        * **<span style="color:red">Red</span> - Insane Wizard:** Opp. soldiers lose House Traits. On entry: Separates opp. Blood Bonds.
-        * **<span style="color:red">Red</span> - Binding Spirit:** Your soldiers can Blood Bond regardless of House (suit).
+        * **:spades::** Target unit poisoned. If a soldier, poison 1 adjacent soldier too.
+    * **Jokers** (+0/+14, Rear Ranks, Declare Variant):
+        * Black - **Doppelganger:** Copies another non-Joker card (stats, abilities, type and Rank location).
+        * Black - **Necromancer:** Summon 1 soldier from Barrows per turn, then Soul Burn
+        * <span style="color:red">Red</span> - **Insane Wizard:** Opp. soldiers lose House Traits. On entry: Separates opp. Blood Bonds.
+        * <span style="color:red">Red</span> - **Binding Spirit:** Your soldiers can Blood Bond regardless of House (suit).
 
     ---
     Designed by:
