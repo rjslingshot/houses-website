@@ -5,6 +5,8 @@ hide:
 # HOUSES - Influence
 
 === "Blog"
+    **Coming soon...**
+
     Here is the current updates on the development of this game.
 
 === "Rules"

@@ -5,6 +5,8 @@ hide:
 # HOUSES - Espionage
 
 === "Blog"
+    **Coming soon...**
+
     Here is the current updates on the development of this game.
 
 === "Rules"
