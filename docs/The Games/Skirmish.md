@@ -672,7 +672,7 @@ hide:
         * **:diamonds::** End turn, last deployed card to Barrows.
         * **:clubs::** Target allied unit will deal double damage this turn.
         * **:hearts::** Negate all damage to an ally this turn.
-        * **:spades::** Gain control of any unit; place it in your hand.
+        * **:spades::** Gain control of any unit; place it into your Ranks.
     * **Queens** (+0/+12, Rear Ranks):
         * **:diamonds::** Take an additional turn following your next turn.
         * **:clubs::** Remove any two units from the Battlefield to the Barrows.
