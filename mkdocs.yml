@@ -30,7 +30,7 @@ theme:
       primary: green
       accent: deep purple
     
-    # Forest Mode (uses extra.css defined styles)
+    # Forest Mode (this uses extra.css defined styles)
 #    - scheme: forest
 #      toggle:
 #        icon: material/forest
