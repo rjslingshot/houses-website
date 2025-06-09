@@ -1,5 +1,5 @@
 ---
-title: " Main"
+title: "Main"
 ---
 
 :diamonds::clubs::hearts::spades:  
