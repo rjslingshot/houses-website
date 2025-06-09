@@ -404,7 +404,7 @@ hide:
 
     <a id="object-of-the-game"></a>
     ### Object of the Game
-    The primary object of the game is to be the last player remaining by reducing all opponents' life points from 40 to 0. Players lose life points when they are successfully attacked by an opponent’s units. Points lost are directly relational to the attack power of each card.
+    The primary object of the game is to be the last player remaining by reducing all opponents' life points from 40 to 0. Players lose life points when they are successfully attacked by an opponent’s units. The number of points lost is determined by the attack power of each card
 
     If the last card is drawn from the deck then a "sudden death" scenario occurs. Each player takes one more round starting with the player who drew the last card.  The player with the highest life points following this final round wins the game.
 
