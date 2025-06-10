@@ -650,7 +650,7 @@ hide:
         * *Enhanced (w/ King):* Defending damage to be resolved first.
     * **:clubs: (Raging Charge):**
         * *Normal:* Excess damage is passed onto the unit or player of choice.
-        * *Enhanced (w/ King):* Defeated while attacking, full damage to one target.
+        * *Enhanced (w/ King):* If defeated while attacking, full damage to one additional target.
     * **:hearts: (Magic Shield):**
         * *Normal:* Defend while exhausted but cannot apply damage when doing so.
         * *Enhanced (w/ King):* If defeated while defending aly, return to the player’s hand.
