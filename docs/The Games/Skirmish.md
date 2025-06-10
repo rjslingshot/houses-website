@@ -361,12 +361,12 @@ hide:
     4.  [The Cards](#the-cards)
         * [General Card Information](#general-card-information)
         * [Soldier Units (Cards 2-10)](#soldier-units)
-            * [2-Cards (Scouts/Soldiers)](#2-cards)
-            * [3-10 Cards (Soldiers)](#3-10-cards)
-        * [House Traits (Applied to Soldiers 2-10)](#house-traits)
+            * [2 Cards](#2-cards)
+            * [3-10 Cards](#3-10-cards)
+        * [House Traits](#house-traits)
         * [Blood Bonds](#blood-bond)
-        * [Jacks (Instant Actions)](#jacks)
-        * [Queens (Significant Single Actions)](#queens)
+        * [Jacks](#jacks)
+        * [Queens](#queens)
         * [Kings](#kings)
         * [Aces](#aces)
         * [Jokers](#jokers)
@@ -710,7 +710,7 @@ hide:
     Today the country ruled by the Miezhala family might still be considered the heart and core of the land. This innermost kingdom is their inheritance from what was once ruled by the ancient lord. This country sits geographically in the middle of the other countries. For this reason, much of the trade between the other kingdoms must pass through. This land is characterized by a tall mountain range, that effectively splits the world in half. Among the tall mountain peaks are small hidden valleys where the people live. There are many such valleys that have not seen visitors from the other lands in a very long time. The great Miezhala city of Sadr famously offers sanctuary and protection to all those who seek it. All manner of people from each of the other kingdoms will commonly seek refuge in Sadr. It is located on one of the largest trading routes through the mountains.
 
     --
-    *In the general background and story above I tried to explain the Hearts suit a little better. For example, how and why the symbol is shaped as it is. I also gave background and meaning to the magical ability of the Queen of Hearts in the actual game. Other attributes of the Hearts family and the cards abilities were explained and reflected in the story.  It will take a long time, but it would be fun to build stories like this out for each card or family in general and release them on our website.  –RJ*
+    *In the general background and story above I tried to explain the Hearts suit a little better. For example, how and why the symbol is shaped as it is. I also gave background and meaning to the magical ability of the Queen of Hearts in the actual game. Other attributes of the Hearts family and the cards abilities were explained and reflected in the story.  It will take a long time, but it would be fun to build stories like this out for each card or family in general and release them here for your enjoyment.  –RJ*
 
     ---
 
