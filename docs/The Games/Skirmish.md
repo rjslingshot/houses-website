@@ -695,10 +695,12 @@ hide:
 
     Ryan Jennings, Micah Jennings, Hayden Jennings, Marshall Jennings
 
-=== "Art Concepts"
-    Here are some art concepts for this game.
-
 === "Lore"
+    
+    We believe the world of Houses would be more enjoyable with some story telling and shared lore across the games. As Skirmish (*previously Cards of War*) was the first game we developed, we have a collection of attempts to do this. We hope to develop interesting tales that might even tie directly to the game's mechanics or characters. Below are a couple of such examples..
+    
+    --- 
+    
     ### The House of Hearts
     
     The family of “hearts” is only a nickname. The Miezhala family dates their lineage back to the earliest times of the land, when all was under the leadership of a single individual. That ancient ruler conquered and tamed the broken land, ushering in a time of peace. The world would not stay peaceful for long however, and would all to soon be sundered apart by war once again leaving the world broken into the four kingdoms of today. But for that brief moment in time there was peace and harmony. The Miezhala family were the steady and resilient core of that ancient kingdom’s rule. They were peacekeepers and healers. It was (and still is) a common tradition for all young members of the Miezhala family to choose to serve in the royal guard or join the order of healers and priests upon reaching the age of thirteen.
@@ -707,7 +709,7 @@ hide:
 
     Today the country ruled by the Miezhala family might still be considered the heart and core of the land. This innermost kingdom is their inheritance from what was once ruled by the ancient lord. This country sits geographically in the middle of the other countries. For this reason, much of the trade between the other kingdoms must pass through. This land is characterized by a tall mountain range, that effectively splits the world in half. Among the tall mountain peaks are small hidden valleys where the people live. There are many such valleys that have not seen visitors from the other lands in a very long time. The great Miezhala city of Sadr famously offers sanctuary and protection to all those who seek it. All manner of people from each of the other kingdoms will commonly seek refuge in Sadr. It is located on one of the largest trading routes through the mountains.
 
-    ---
+    --
     *In the general background and story above I tried to explain the Hearts suit a little better. For example, how and why the symbol is shaped as it is. I also gave background and meaning to the magical ability of the Queen of Hearts in the actual game. Other attributes of the Hearts family and the cards abilities were explained and reflected in the story.  It will take a long time, but it would be fun to build stories like this out for each card or family in general and release them on our website.  –RJ*
 
     ---
@@ -725,3 +727,6 @@ hide:
     The **King** and **Queen** share the responsibility of governing their people along with their heir, known as the Jack. The art of espionage and intelligence is performed by the **Ace** and **Two** of each house. The **Ten** leads each army with the **Three**, **Four**, **Five**, **Six**, **Seven**, **Eight** and **Nine** serving as commanding officers.
 
     I have heard rumors of another such as me, who may also be trapped here. Unfortunately their identity and location has eluded me so far. Perhaps some day we may meet? *–The Traveler*
+
+    --
+    *This is just an introduction to the Traveler. We have more tales to tell of their influence upon the world of Houses and their direct impact in the game itself..*
