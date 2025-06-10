@@ -533,7 +533,7 @@ hide:
 
     1.  **Black Joker** (Choose one):
         * **Doppelganger:** Imitates any other unit of the Player’s choice. The Doppelganger gains all abilities and stats of the chosen unit and is deployed to the appropriate rank. 
-        * **Necromancer (+0/+14):** The Necromancer may (once per turn) allow the player to summon a face up Soldier card from the Barrows during the DEPLOY Phase. That summoned card is immediately placed unexhausted onto the Battlefield (if space permits) and may attack that same turn. Summoned cards will leave the Battlefield during the owner’s READY Phase (at the start of the next turn) and placed in the Barrows **face down**.
+        * **Necromancer (+0/+14):** The Necromancer may (once per turn) allow the player to summon a face up Soldier card from the Barrows during the DEPLOY Phase. That summoned card is immediately placed un-exhausted onto the Battlefield (if space permits) and may attack that same turn. Summoned cards will leave the Battlefield during the owner’s READY Phase (at the start of the next turn) and placed in the Barrows **face down**.
     2.  **Red Joker** (Choose one):
         * **Insane Wizard (+0/+14):** The Insane Wizard casts a spell of madness on all units in the opposing Front Ranks. All opposing Soldiers lose access to utilize their House Traits and the ability to form Blood Bonds. Any existing Blood Bonded units must be separated. All Front Rank size limits apply. The opposing plate must decide which 4 units remain on the Battlefield and all others will move to the Barrows face up.  
         * **Binding Spirit (+0/+14):** The Binding Spirit flows about your army, infusing them a sense of togetherness. Now all allied units may form Blood Bonds, regardless of their affiliated house. The Blood Bonded unit’s leader defines the House Trait for the unit as a whole. All other Blood Bond rules still apply.
@@ -586,8 +586,8 @@ hide:
     1.  The current player declares which readied units will be attacking and their targets. 
     2.  The owner of targeted units, will declare which available units will defend. 
 
-    <a id="resolve-damage-phase"></a>
-    ### F. RESOLVE DAMAGE Phase
+    <a id="resolution-phase"></a>
+    ### F. RESOLUTION Phase
     
     1.  Calculate and apply damage simultaneously to all attackers and blockers (unless card ability allows otherwise).  
     2.  Remove Defeated Units to Barrows (face up, unless Soul Burned then face down). 
